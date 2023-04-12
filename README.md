@@ -14,27 +14,9 @@ if you just want to use it for internal dev purposes (e.g. doing some data check
 
 ## How to use it
 
-<div style="border: 1px solid; padding: 0.5em; background: lightyellow; color: darkorange">
-<strong>Pre-Assumptions</strong>
-
-<p style="color: darkorange">For the next steps I assume you've already setup a valid forerunner db instance and are familiar with the common handling of the ForerunnerDb library. If not, I advise you to go through their documentation carefully. It is worth to read.</p>
-
-<p style="color: darkorange">If you want to skip that for now I advise you to just have setup the forerunner instance itself</p>
-
-```js
-// full doc here: https://github.com/Irrelon/ForerunnerDB#use-forerunnerdb-in-nodejs
-var ForerunnerDB = require("forerunnerdb");
-var fdb = new ForerunnerDB();
-```
-
-<p style="color: darkorange">and initialized an appropriate database:</p>
-
-```js
-// full doc here https://github.com/Irrelon/ForerunnerDB#create-a-database
-var db = fdb.db("myDatabaseName");
-```
-
-</div>
+> :warning: **WARNING**
+> For the next steps I assume you've already setup a valid forerunner db instance and are familiar with the common handling of the ForerunnerDb library. If not, I advise you to go through their documentation carefully. It is worth to read.
+> If you want to skip that for now I advise you to just have [setup the forerunner instance](https://github.com/Irrelon/ForerunnerDB#use-forerunnerdb-in-nodejs) itself and [initialized an appropriate database](https://github.com/Irrelon/ForerunnerDB#create-a-database).
 
 First of all you need to establish the debugger and connect it with your ForerunnerDB instance, that you've already setup (see yellow box above for more information on how to setup the forerunner instance).
 
