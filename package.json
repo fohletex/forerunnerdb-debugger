@@ -24,6 +24,10 @@
     "type": "git",
     "url": "git@https://github.com/fohletex/forerunnerdb-debugger.git"
   },
+  "np": {
+    "registry": "https://registry.npmjs.org/",
+    "yarn": true
+  },
   "author": "fohletex",
   "license": "MIT",
   "peerDependencies": {
